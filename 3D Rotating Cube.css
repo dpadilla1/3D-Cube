@@ -3,11 +3,15 @@
 }
 body {
 	font-size:50px;
-	background:#F9F7E4;
+	background-image: url("https://newevolutiondesigns.com/images/freebies/space-wallpaper-5.jpg");
+	/*background:#F9F7E4;*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color:black;
     perspective: 400px;
     perspective-origin: 15rem 5rem;
 	-webkit-perspective: 400px;
-    -webkit-perspective-origin: 15rem 5rem;
+	-webkit-perspective-origin: 15rem 5rem;
 }
 
 #cube {
@@ -42,9 +46,13 @@ body {
 	width:10rem;
 	height:10rem;
 	padding-top:30%;
-	background:#FFA2A2;
+	background:#D767EE;
 	opacity:0.5;
 	border:5px dotted black;
+}
+
+.side:hover {
+	background:white;
 }
 
 .one {
